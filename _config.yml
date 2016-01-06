@@ -1,0 +1,24 @@
+# Site settings
+#
+# Paramerers:
+#  baseurl
+#   The subpath of your site, e.g. /blog/
+#  url
+#   The base hostname & protocol for your site
+#  comments
+#   Flag governing DISQUS comments
+# Tip:
+#  In parameter values, the `>` means to ignore newlines until the next
+#  parameter key.
+title: Bits and Bytes
+email: setop@fiveinthewood.com
+description: Wellcome to my blog. I will write about information technologies, electronic and life hacks. 
+baseurl: ""
+url: "https://setop.github.io"
+github_username: setop
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+comments: false
+
